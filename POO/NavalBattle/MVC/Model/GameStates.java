@@ -1,0 +1,10 @@
+package NavalBattle.MVC.Model;
+
+public enum GameStates {
+	EMPTY, WATER, ERROR, SUCCESS, BOAT, TOUCHEDBOAT, SUNKENBOAT, 
+	INITIATED, FINALIZED, JUGADOR_ELIMINADO, SALIO, TURNCHANGE, READY, 
+	WAITING, PLAYING, LEAVEPLAYER, 
+	ErrorOrientacionHayBarco, ErrorPosicionBarco, INACTIVE, errorPositionMissil, EXIST
+
+}
+
